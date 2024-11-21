@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="contact-form">
+      <label>Name</label>
+
+      <div class="nameField">
+        <input type="text" placeholder="Vorname" required />
+      </div>
+      <div class="nameField">
+        <input type="text" placeholder="Nachname" required />
+      </div>
+
+      <div>
+        <label>Email</label>
+        <input type="email" required />
+      </div>
+
+      <div>
+        <label>Thema</label>
+        <select required>
+          <option value="advertise">General</option>
+          <option value="advertise">Advertise</option>
+          <option value="advertise">Partnership</option>
+          <option value="advertise">Nachricht</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Nachricht</label>
+        <textarea required></textarea>
+      </div>
+
+      <input class="btn" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

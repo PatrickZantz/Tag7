@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 300px;
+    margin: 40px auto;
+}
+
+.signUp {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #2a88ab;
+    color: white;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.signUp p:nth-of-type(2) {
+    font-size: smaller;
+}
+
+ul {
+    list-style: none;
+}
+
+.box {
+    background-color: #2a88ab;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: -40px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+input {
+    width: 100%;
+}
+
+section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 10px;
+    color: gray;
+}
+
+section input {
+    border-style: none;
+    box-shadow: 0px 0px 2px silver;
+}
+
+h1 {
+    color: #2a88ab;
+    font-size: smaller;
+}
+
+.btn {
+    width: 50px;
+}

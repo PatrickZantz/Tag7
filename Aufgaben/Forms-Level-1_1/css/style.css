@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    width: 70%;
+    margin: 20px auto;
+    margin-bottom: 100px;
+}
+
+.nameField {
+    display: inline-block;
+    width: 42%;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+.nameField input:nth-of-type(1) {
+    margin-right: 5px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+ 
+    padding: 8px;
+ 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4999ac;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label::after {
+    content: " *";
+    color: red;
+}

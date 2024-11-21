@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+form {
+    width: 95%;
+    margin: 10px auto;
+}
+
+legend {
+    margin: 10px;
+}
+
+section label {
+    margin-left: 10px;
+}
+
+.prefLang {
+    height: 50px;
+}
+
+div {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.btns {
+    margin: 10px;
+}

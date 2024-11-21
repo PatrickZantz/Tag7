@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Register Form</legend>
+
+        <section class="text">
+          <div>
+            <label for="name">Name</label>
+          </div>
+          <input type="text" name="nameIn" id="name" placeholder="Name" />
+        </section>
+
+        <section class="text">
+          <div>
+            <label for="surname">Surname</label>
+          </div>
+
+          <input
+            type="text"
+            name="surnameIn"
+            id="surname"
+            placeholder="Surname"
+          />
+        </section>
+
+        <section class="text">
+          <div>
+            <label for="mail">Email</label>
+          </div>
+          <input type="text" name="mailIn" id="mail" placeholder="Email" />
+        </section>
+
+        <section class="text">
+          <div>
+            <label>Gender</label>
+          </div>
+
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" />
+
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" />
+        </section>
+
+        <section class="text">
+          <div>
+            <label for="pic">Picture</label>
+          </div>
+          <input type="file" id="pic" accept="image/*,.jpg,.jpeg,.png" />
+        </section>
+
+        <section class="text">
+          <div>
+
+            <label for="country" class="margeRight">Country</label>
+          </div>
+          <select>
+            <option value="ger">Germany</option>
+            <option value="spain">Spain</option>
+            <option value="france">France</option>
+          </select>
+        </section>
+
+        <section class="text">
+          <div>
+
+            <label for="prefLang">Preferred language</label>
+          </div>
+          <select class="prefLang" multiple>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JS</option>
+            <option>React</option>
+          </select>
+          <span>(To choose more than one use cmd key)</span>
+        </section>
+
+        <section class="text">
+          <div>
+            <label for="act">Field of activity</label>
+          </div>
+
+          <input type="checkbox" name="it" id="it" />
+          <label for="it">IT</label>
+
+          <input type="checkbox" name="design" id="design" />
+          <label for="design">Design</label>
+
+          <input type="checkbox" name="other" id="other" />
+          <label for="other">Other</label>
+        </section>
+
+        <section class="btns">
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </section>
+      </fieldset>
+    </form>
+  </body>
+</html>
